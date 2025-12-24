@@ -163,8 +163,10 @@ html, body {
     background:white;
     border-radius: 8px;
     margin-top: 24px;
-    box-shadow: 3px 8px 10px 2px #00000026;
-
+    box-shadow: 3px 8px 10px 2px #00000026
+}
+.card1:hover{
+    transform: scale(1.05);
 }
 #card-img{
     width: 284px;
@@ -225,6 +227,9 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+#test-card:hover{
+    transform: scale(1.05);
 }
 
 @media (max-width:720px) {
