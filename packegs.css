@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+    background:#F2F4F7;
+}
+
+/* hero section  */
+
+.hero {
+    background-image: url("268cd0ab44b510d4b8f8d8f55154bcf901ab939d.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;  
+    width: 100%;
+    height: 720px;             
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E6F4EA33;
+    width: 1280px;      
+    height: 80px;
+    margin: 0 auto; 
+    padding: 0px 10px;
+    position: relative;
+    top: 40px;
+    left: 0px;
+    border-radius: 24px; 
+    backdrop-filter: blur(40px) 
+     
+}
+.logo{
+    width: 217px;
+    height: 50px;
+}
+.navlink ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+}
+.auth ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+    padding-right: 10px;
+}
+
+
+
+
+
+/* section explore  */
+.Explore{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4 ,0fr);
+    justify-content: center;
+    gap: 10px;
+   
+}
+.card1{
+    width: 300px;
+    height: 400px;
+    background:white;
+    border-radius: 8px;
+    margin-top: 24px;
+    box-shadow: 3px 8px 10px 2px #00000026
+}
+.card1:hover{
+    transform: scale(1.05);
+}
+#card-img{
+    width: 284px;
+    height: 210px;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.card-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 284px;
+    height: 30px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.card-top img{
+    width: 100px;
+    height: 22px;
+}
+#card-parh{
+    width: 274px;
+    height:68px;
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: auto;
+    margin-bottom: 5px;
+}
+#card-info1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 8px;
+}
+#card-info2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px 8px;
+}
+#color-green{
+    color: #008A1E;
+}
+
